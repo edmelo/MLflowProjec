@@ -1,0 +1,10 @@
+artifact_location: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/models/m-09f286f66b7a4a3398f798e985dfb308/artifacts
+creation_timestamp: 1753205688953
+experiment_id: '144448867283839194'
+last_updated_timestamp: 1753205693121
+model_id: m-09f286f66b7a4a3398f798e985dfb308
+model_type: null
+name: best_model
+source_run_id: 71c85c9da16a43a39d4cabb403c4040b
+status: 2
+status_message: null

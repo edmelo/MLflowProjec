@@ -1,0 +1,10 @@
+artifact_location: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/models/m-0cd7594a9e064c7ea62ccf98428d921a/artifacts
+creation_timestamp: 1753205608878
+experiment_id: '144448867283839194'
+last_updated_timestamp: 1753205619050
+model_id: m-0cd7594a9e064c7ea62ccf98428d921a
+model_type: null
+name: Logistic_Regression_best_model
+source_run_id: 914993683343460d996aee9975c56a94
+status: 2
+status_message: null

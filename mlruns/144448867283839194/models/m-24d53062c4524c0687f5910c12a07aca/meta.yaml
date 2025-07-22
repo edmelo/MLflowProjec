@@ -1,0 +1,10 @@
+artifact_location: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/models/m-24d53062c4524c0687f5910c12a07aca/artifacts
+creation_timestamp: 1753174376888
+experiment_id: '144448867283839194'
+last_updated_timestamp: 1753174381056
+model_id: m-24d53062c4524c0687f5910c12a07aca
+model_type: null
+name: Random_Forest_best_model
+source_run_id: 2c39cd57df384c398c183c9b4eef6419
+status: 2
+status_message: null

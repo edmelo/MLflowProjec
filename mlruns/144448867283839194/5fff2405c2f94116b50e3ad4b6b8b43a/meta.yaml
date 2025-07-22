@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/5fff2405c2f94116b50e3ad4b6b8b43a/artifacts
+end_time: 1753205644053
+entry_point_name: ''
+experiment_id: '144448867283839194'
+lifecycle_stage: active
+run_id: 5fff2405c2f94116b50e3ad4b6b8b43a
+run_name: Random_Forest_optimization
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753205624482
+status: 3
+tags: []
+user_id: Ednaldo

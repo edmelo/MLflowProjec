@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  mlflow:
+    image: python:3.9-slim
+    container_name: mlflow-server
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlruns
+      - ./mlflow.db:/mlflow_data
+    command: >
+      bash -c "pip install mlflow==2.9.0 psycopg2-binary==2.9.9 && 
+              mkdir -p /mlflow_data && 
+              mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:////mlflow_data/mlflow.db --default-artifact-root /mlruns"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  model-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.model
+    image: dor-no-peito-como-indicador-de-doenca-cardiaca:latest
+    container_name: dor-no-peito-como-indicador-de-doenca-cardiaca
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+      - ./mlruns:/app/mlruns
+    environment:
+      - MODEL_PATH=/app/models/best_model.pkl
+      - SCALER_PATH=/app/models/scaler.pkl
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - MLFLOW_EXPERIMENT_NAME=Heart_Disease_Prediction_Web
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    depends_on:
+      - mlflow
+    restart: unless-stopped
+
+  ui:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    image: heart-disease-ui:latest
+    container_name: heart-disease-ui
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://model-api:8000
+      - MLFLOW_URL=http://localhost:5000
+    depends_on:
+      - model-api
+    restart: unless-stopped
+
+networks:
+  default:
+    name: heart-disease-network

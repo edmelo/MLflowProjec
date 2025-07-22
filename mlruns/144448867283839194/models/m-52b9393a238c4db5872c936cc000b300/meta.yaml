@@ -1,0 +1,10 @@
+artifact_location: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/models/m-52b9393a238c4db5872c936cc000b300/artifacts
+creation_timestamp: 1753174357589
+experiment_id: '144448867283839194'
+last_updated_timestamp: 1753174361794
+model_id: m-52b9393a238c4db5872c936cc000b300
+model_type: null
+name: Decision_Tree_best_model
+source_run_id: 9feb3cea79294e4a81578b109261fea8
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/914993683343460d996aee9975c56a94/artifacts
+end_time: 1753205619101
+entry_point_name: ''
+experiment_id: '144448867283839194'
+lifecycle_stage: active
+run_id: 914993683343460d996aee9975c56a94
+run_name: Logistic_Regression_optimization
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753205602672
+status: 3
+tags: []
+user_id: Ednaldo

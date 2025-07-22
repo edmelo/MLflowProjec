@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/a877ecddbf3748a0b90591099910cfc0/artifacts
+end_time: 1753205688782
+entry_point_name: ''
+experiment_id: '144448867283839194'
+lifecycle_stage: active
+run_id: a877ecddbf3748a0b90591099910cfc0
+run_name: Gradient_Boosting_optimization
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753205668227
+status: 3
+tags: []
+user_id: Ednaldo

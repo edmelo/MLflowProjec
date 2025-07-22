@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/2a858984831c451ab49fedf96f0a8702/artifacts
+end_time: 1753174400614
+entry_point_name: ''
+experiment_id: '144448867283839194'
+lifecycle_stage: active
+run_id: 2a858984831c451ab49fedf96f0a8702
+run_name: SVM_optimization
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753174381091
+status: 3
+tags: []
+user_id: Ednaldo

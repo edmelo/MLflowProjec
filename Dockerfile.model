@@ -1,0 +1,23 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Copiar os arquivos de requisitos
+COPY requirements.txt .
+
+# Instalar as dependências
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copiar o código da API e os modelos
+COPY model_api.py .
+COPY models/ ./models/
+
+# Expor a porta que a API vai usar
+EXPOSE 8000
+
+# Definir variáveis de ambiente
+ENV MODEL_PATH=/app/models/best_model.pkl
+ENV SCALER_PATH=/app/models/scaler.pkl
+
+# Comando para iniciar a API
+CMD ["uvicorn", "model_api:app", "--host", "0.0.0.0", "--port", "8000"]

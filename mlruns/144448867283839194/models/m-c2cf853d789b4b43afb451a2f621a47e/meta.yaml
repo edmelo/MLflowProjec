@@ -1,0 +1,10 @@
+artifact_location: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/models/m-c2cf853d789b4b43afb451a2f621a47e/artifacts
+creation_timestamp: 1753174401395
+experiment_id: '144448867283839194'
+last_updated_timestamp: 1753174405504
+model_id: m-c2cf853d789b4b43afb451a2f621a47e
+model_type: null
+name: KNN_best_model
+source_run_id: 51aa1589197f4214beb33a9723011975
+status: 2
+status_message: null

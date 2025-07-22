@@ -1,0 +1,10 @@
+artifact_location: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/models/m-8eb0e2740d3540a080bbbc3b9b95e431/artifacts
+creation_timestamp: 1753174396513
+experiment_id: '144448867283839194'
+last_updated_timestamp: 1753174400598
+model_id: m-8eb0e2740d3540a080bbbc3b9b95e431
+model_type: null
+name: SVM_best_model
+source_run_id: 2a858984831c451ab49fedf96f0a8702
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/71c85c9da16a43a39d4cabb403c4040b/artifacts
+end_time: 1753205693229
+entry_point_name: ''
+experiment_id: '144448867283839194'
+lifecycle_stage: active
+run_id: 71c85c9da16a43a39d4cabb403c4040b
+run_name: Best_Model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753205688800
+status: 3
+tags: []
+user_id: Ednaldo

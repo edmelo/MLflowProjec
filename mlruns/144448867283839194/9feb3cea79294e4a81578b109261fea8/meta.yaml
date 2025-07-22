@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/9feb3cea79294e4a81578b109261fea8/artifacts
+end_time: 1753174361812
+entry_point_name: ''
+experiment_id: '144448867283839194'
+lifecycle_stage: active
+run_id: 9feb3cea79294e4a81578b109261fea8
+run_name: Decision_Tree_optimization
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753174356975
+status: 3
+tags: []
+user_id: Ednaldo

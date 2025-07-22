@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/Pycharm/AMProjeto2/mlruns/144448867283839194/1dd45ec9ce1a4d76be2a2ed9b4364a2d/artifacts
+end_time: 1753205668208
+entry_point_name: ''
+experiment_id: '144448867283839194'
+lifecycle_stage: active
+run_id: 1dd45ec9ce1a4d76be2a2ed9b4364a2d
+run_name: KNN_optimization
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753205663169
+status: 3
+tags: []
+user_id: Ednaldo
